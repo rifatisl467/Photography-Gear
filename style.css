@@ -1,0 +1,260 @@
+/* Font- Poppin */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.title-bar {
+    margin-right: auto;
+    font-size: 24px;
+
+}
+
+.nav-link {
+    list-style: none;
+
+
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.nav-link li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link :hover {
+    color: #E02C6D;
+    transition: all .3s ease;
+}
+
+.button {
+    padding: 0 25px;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+}
+
+.button a:hover {
+    color: #E02C6D;
+    background-color: aliceblue;
+    border-radius: 40px;
+}
+
+/* ==== Top Section ===== */
+
+.top-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.intro {
+    width: 50%;
+}
+
+.intro h1 {
+    font-size: 5em;
+}
+
+.intro h3 {
+    font-size: 2em;
+    margin-bottom: 60px;
+}
+
+.intro h4 a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    background-color: #E02C6D;
+    padding: 15px 30px;
+    border-radius: 40px;
+}
+
+/*==========================================LOGOS=================================== */
+
+.border {
+    margin: 0px 50px;
+    border: 1px solid rgb(236, 236, 236);
+}
+
+.top {
+    margin-top: 100px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    height: 30px;
+}
+
+.best-buy img {
+    width: 200px;
+    height: 60px;
+}
+
+/*================================= Popular Collection=================================== */
+#heading {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-gap: 20px;
+
+}
+
+.item {
+
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgb(199, 199, 199);
+}
+
+
+
+
+
+.item-detail .item-title {
+    font-size: 28px;
+    margin: 1px;
+}
+
+.item-detail .price {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 1px;
+    margin-bottom: 20px;
+
+}
+
+.fa-star {
+    font-size: 12px;
+    color: gold;
+}
+
+.fa-star-half {
+    font-size: 12px;
+    color: gold;
+}
+
+.item-info span {
+    font-size: 14px;
+    color: rgb(37, 37, 119);
+    font-weight: 700;
+}
+
+.item-info p {
+    font-size: 14px;
+    color: rgb(95, 95, 95);
+    font-weight: 600;
+    margin: 0px;
+}
+
+.see-more {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    text-align: right;
+}
+
+.see-more a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #E02C6D;
+}
+
+/* ==================================== Featured Products ======================================================= */
+.gear {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#gear-title {
+    font-size: 38px;
+}
+
+.gear-para {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#gear-button {
+    text-align: center;
+    background-color: #E02C6D;
+    font-size: 16px;
+    color: white;
+    padding: 10px 20px;
+    width: 155px;
+    cursor: pointer;
+}
+
+/* ================================= Footer ========================= */
+.footer {
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+    background-color: rgb(33, 33, 87);
+
+}
+
+.footer p {
+    margin: 0px;
+}
+
+.icons {
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+.fa-youtube {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.fa-instagram {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.fa-twitter {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.fa-facebook {
+    padding: 10px;
+    cursor: pointer;
+}
